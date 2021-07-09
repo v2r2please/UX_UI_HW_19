@@ -1,0 +1,193 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 32%, rgba(110,39,140,1) 100%);
+    display:flex;
+    flex-direction: row;    
+    align-items: baseline;
+    padding:5px;
+    
+}
+
+.inline-block {
+    display:inline-flex;
+    margin-top:auto;
+    background-color: transparent;
+    }
+
+.name {
+    margin-left: 0px;
+    padding:8px;
+    margin-right:auto;
+    color:antiquewhite;
+}
+
+.logo {
+    height: 100px;
+    display:flex;
+    margin-right:0px;
+
+}  
+
+.Vero {
+    padding:15px;
+    margin: 20px;
+    width:100%;
+   }
+
+nav {
+    display:flex;
+    width: 75%;
+    background-color:hsl(282, 56%, 35%);
+    color:antiquewhite;
+
+}
+
+ul {
+    display:inline-flex;
+    justify-content: space-evenly;
+}
+li{
+    padding:8px;
+}
+
+hr.rounded {
+    border-top: 7px solid;
+    color:#CFE7E9;
+    border-radius: 4px;
+}
+
+.heroImg {
+    width: 100%;
+    display:flex; 
+    flex-direction: row;
+    align-content: center;
+    margin: left 10px;
+    margin: right 10px;
+    background-color:black;
+}
+
+.content {
+    width: 40%;
+    text-align:justify;
+    justify-content:left;
+    padding-top:70px;
+    padding-bottom: 70px;
+    margin-left:100px;
+    margin-top:10px;
+    margin-right:5px;
+    margin-bottom: 20px;
+    color:antiquewhite;    
+
+}
+
+.veroImg {
+    width: 40%;
+    align-items: center;
+    display:flex;
+    max-height: min-content;
+    margin:10px;
+}
+.mySkills {
+    margin:20px;
+}
+.skillImage {
+    max-width:388px;
+    max-height: 545px;
+    min-width: 234px;
+    overflow:inherit;
+    border-radius: 11px;
+    margin-top: 25px;
+
+}
+.myWork {
+    width: 100%;
+    display:flex; 
+    flex-direction:column;
+    align-content: center;
+    margin:auto;
+    background-color:#6E278C;
+}
+.work {
+    max-width:388px;
+    max-height: 545px;
+    min-width:234px;
+}
+
+h1{
+    color:#6E278C;
+    margin-left: auto;
+}
+
+h3{
+    color:#6E278C;
+    
+}
+h4 {
+    color:#6E278C;
+}
+
+button {
+    background-color:#6E278C;
+    color: antiquewhite;
+    width: 200px;
+    border-radius: 11px;
+    margin:auto;
+    padding:5px;
+    transition: 0.3s;
+}
+
+button:active{
+    background-color:antiquewhite;
+    color:#6E278C;
+    
+}
+
+.flexContainer {
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    column-width: 33%;
+    padding: 8px;
+    margin: 5px;
+    position: relative;
+    justify-content: space-evenly;
+}
+
+.card {
+    flex:1;
+    max-width:450px;
+    max-height: 900px;
+    min-width: 234px;
+    margin: 10px;
+    padding:20px;
+    
+}
+.workGrid {
+    max-width: 800px;
+    padding:20px;
+    margin: auto;
+    background-color:white;
+
+}
+footer {
+    width:100%;
+    height:50px;
+    background-color: #6E278C;
+    color: antiquewhite;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+
+.footerMenu {
+    align-content: center;
+    padding-top: 10px;
+    padding-left:10px;
+    justify-content:space-between;
+    display:flex;
+    width:400px;
+
+}
